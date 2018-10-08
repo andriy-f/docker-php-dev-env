@@ -1,0 +1,7 @@
+#!/usr/bin/env bash
+
+NAME=andreus108/docker-php-dev-env
+TAG=5
+
+docker build -t $NAME:$TAG .
+docker push $NAME:$TAG

@@ -1,0 +1,8 @@
+#!/usr/bin/env bash
+NAME=andreus108/docker-php-dev-env;
+TAG=5;
+
+docker run -ti --rm \
+-v "$PWD":/var/www/html \
+--name docker-php-dev-env-$TAG \
+$NAME:$TAG;
