@@ -6,6 +6,7 @@ RUN /tmp/composer-install && rm /tmp/composer-install
 
 # Install additional components
 RUN apt-get update && apt-get install -y \
+        git \
         libfreetype6-dev \
         libjpeg62-turbo-dev \
         libpng-dev \
